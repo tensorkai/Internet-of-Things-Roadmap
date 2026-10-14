@@ -6,9 +6,51 @@ This roadmap provides a structured learning path for beginners who want to under
 
 Use the topics below as a guide, pairing each concept with hands-on practice. Start with the foundations, build a small device, and then connect it to an application. Revisit more advanced topics as your projects require them; you do not need to master every subject before building something useful.
 
+## Category folders
+
+Each category has its own study guide with prerequisites, detailed topics, practical exercises, and completion evidence. Follow the study phases below to progress from foundations to a tested, maintainable IoT system.
+
+| Category | Guide |
+| --- | --- |
+| 1. Introduction to IoT | [Open guide](01-introduction-to-iot/README.md) |
+| 2. Electronics Fundamentals | [Open guide](02-electronics-fundamentals/README.md) |
+| 3. Mathematical Foundations | [Open guide](03-mathematical-foundations/README.md) |
+| 4. Programming Foundations: C and C++ | [Open guide](04-programming-foundations/README.md) |
+| 5. Development Tools and Workflow | [Open guide](05-development-tools-and-workflow/README.md) |
+| 6. Microcontrollers and Embedded Systems | [Open guide](06-microcontrollers-and-embedded-systems/README.md) |
+| 7. Networking and Wireless Communication | [Open guide](07-networking-and-wireless-communication/README.md) |
+| 8. IoT Messaging and Application Protocols | [Open guide](08-iot-messaging-and-application-protocols/README.md) |
+| 9. Gateways and Edge Computing | [Open guide](09-gateways-and-edge-computing/README.md) |
+| 10. Backends, Storage, and Dashboards | [Open guide](10-backends-storage-and-dashboards/README.md) |
+| 11. Security and Privacy | [Open guide](11-security-and-privacy/README.md) |
+| 12. Testing and Troubleshooting | [Open guide](12-testing-and-troubleshooting/README.md) |
+| 13. Deployment and Device Lifecycle | [Open guide](13-deployment-and-device-lifecycle/README.md) |
+| 14. Optional Specializations | [Open guide](14-optional-specializations/README.md) |
+| 15. Power and Energy Engineering | [Open guide](15-power-and-energy-engineering/README.md) |
+| 16. Sensing, Signal Processing, and Control | [Open guide](16-sensing-signal-processing-and-control/README.md) |
+| 17. Production and System Engineering | [Open guide](17-production-and-system-engineering/README.md) |
+| 18. Projects and Assessment | [Open guide](18-projects-and-assessment/README.md) |
+
+## Study order and completion rules
+
+Folder numbers retain the original 14 categories. Categories 15–17 add engineering depth and belong at the stages shown below; category 18 contains the practical assessment path.
+
+1. **Foundations:** study 01, learn 02 and 03 together, then work through 04 and 05. Begin security thinking in 11 and tests in 12 immediately.
+2. **A dependable device:** complete 06, then the sensing and control foundations in 16 and power measurements in 15. Complete the local-sensing milestone in 18.
+3. **A connected device:** work through 07 and 08 with identity, access control, and secure transport from 11. Complete the connected-device milestone.
+4. **An end-to-end system:** study 09 and 10, deepen 11 and 12, and complete the application milestone. A gateway implementation is needed when the architecture calls for one; understand its role even in a direct-to-backend design.
+5. **Unattended operation:** complete 13 and the system/production foundations in 17. Revisit 15 and 16 using the assembled system, then finish the fleet capstone in 18.
+6. **Specialization:** choose one or more branches from 14 after the core system works. PCB manufacture, advanced control, edge ML, and every wireless protocol are not universal prerequisites.
+
+For each category, complete the topics, perform the hands-on work, and retain the completion evidence. Test assumptions, record measurements, and explain failure behavior. One complete stack is enough for the core path; compare alternatives and implement them when your specialization needs them. There is no fixed completion time: progress depends on demonstrated skills.
+
+The outline below remains a concise reference. The linked category guides are the detailed curriculum, and [Projects and Assessment](18-projects-and-assessment/README.md) defines the milestones.
+
 ## Learning Path
 
 ### 1. Introduction to IoT
+
+[Detailed guide, exercises, and completion criteria](01-introduction-to-iot/README.md)
 
 Understand how the parts of a connected system work together.
 
@@ -19,6 +61,8 @@ Understand how the parts of a connected system work together.
 - **Design constraints:** Consider cost, power consumption, connectivity, reliability, privacy, and maintenance.
 
 ### 2. Electronics Fundamentals
+
+[Detailed guide, exercises, and completion criteria](02-electronics-fundamentals/README.md)
 
 Learn to assemble and troubleshoot the circuits your software will control.
 
@@ -31,6 +75,8 @@ Learn to assemble and troubleshoot the circuits your software will control.
 
 ### 3. Mathematical Foundations
 
+[Detailed guide, exercises, and completion criteria](03-mathematical-foundations/README.md)
+
 Focus on the mathematics needed to interpret measurements and reason about device behavior.
 
 - **Algebra and units:** Rearrange equations, convert units, and use scientific notation.
@@ -41,6 +87,8 @@ Focus on the mathematics needed to interpret measurements and reason about devic
 - **Applied calculations:** Scale raw sensor readings, estimate battery life, and calculate storage or transmission needs.
 
 ### 4. Programming Foundations: C and C++
+
+[Detailed guide, exercises, and completion criteria](04-programming-foundations/README.md)
 
 Develop the skills needed to write firmware and understand hardware-oriented code.
 
@@ -54,6 +102,8 @@ Develop the skills needed to write firmware and understand hardware-oriented cod
 
 ### 5. Development Tools and Workflow
 
+[Detailed guide, exercises, and completion criteria](05-development-tools-and-workflow/README.md)
+
 Make your projects reproducible and easier to maintain.
 
 - **Version control:** Git repositories, commits, branches, diffs, and meaningful change descriptions.
@@ -63,6 +113,8 @@ Make your projects reproducible and easier to maintain.
 - **Project documentation:** Record wiring, setup steps, configuration, and known limitations.
 
 ### 6. Microcontrollers and Embedded Systems
+
+[Detailed guide, exercises, and completion criteria](06-microcontrollers-and-embedded-systems/README.md)
 
 Connect programming concepts to the hardware running your application.
 
@@ -77,6 +129,8 @@ Connect programming concepts to the hardware running your application.
 
 ### 7. Networking and Wireless Communication
 
+[Detailed guide, exercises, and completion criteria](07-networking-and-wireless-communication/README.md)
+
 Understand how devices exchange information and how connection choices affect a design.
 
 - **Network fundamentals:** IP addresses, ports, subnets, DNS, DHCP, and client-server communication.
@@ -87,6 +141,8 @@ Understand how devices exchange information and how connection choices affect a 
 - **Connection failures:** Handle disconnects, timeouts, retries with backoff, and offline buffering.
 
 ### 8. IoT Messaging and Application Protocols
+
+[Detailed guide, exercises, and completion criteria](08-iot-messaging-and-application-protocols/README.md)
 
 Learn how to structure communication between devices and services.
 
@@ -99,6 +155,8 @@ Learn how to structure communication between devices and services.
 
 ### 9. Gateways and Edge Computing
 
+[Detailed guide, exercises, and completion criteria](09-gateways-and-edge-computing/README.md)
+
 Decide which work belongs near the device and which belongs on a remote service.
 
 - **Gateway responsibilities:** Collect data, translate protocols, and connect local devices to backend services.
@@ -108,6 +166,8 @@ Decide which work belongs near the device and which belongs on a remote service.
 - **Edge deployment:** Manage configuration, logs, service restarts, and resource limits.
 
 ### 10. Backends, Storage, and Dashboards
+
+[Detailed guide, exercises, and completion criteria](10-backends-storage-and-dashboards/README.md)
 
 Turn device messages into information people can use.
 
@@ -119,6 +179,8 @@ Turn device messages into information people can use.
 - **Hosting fundamentals:** Compare local and cloud hosting; understand environment configuration, backups, and service monitoring.
 
 ### 11. Security and Privacy
+
+[Detailed guide, exercises, and completion criteria](11-security-and-privacy/README.md)
 
 Apply these ideas throughout your projects, beginning with the first connected prototype.
 
@@ -132,6 +194,8 @@ Apply these ideas throughout your projects, beginning with the first connected p
 
 ### 12. Testing and Troubleshooting
 
+[Detailed guide, exercises, and completion criteria](12-testing-and-troubleshooting/README.md)
+
 Check how the system behaves both normally and when components fail.
 
 - **Firmware tests:** Test calculations, parsing, state transitions, and error handling independently of hardware where practical.
@@ -142,6 +206,8 @@ Check how the system behaves both normally and when components fail.
 - **Debugging tools:** Use serial logs, debuggers, logic analyzers, oscilloscopes, and packet captures as needed.
 
 ### 13. Deployment and Device Lifecycle
+
+[Detailed guide, exercises, and completion criteria](13-deployment-and-device-lifecycle/README.md)
 
 Learn what changes when a prototype must run unattended or support multiple devices.
 
@@ -154,6 +220,8 @@ Learn what changes when a prototype must run unattended or support multiple devi
 
 ### 14. Optional Specializations
 
+[Detailed guide, exercises, and completion criteria](14-optional-specializations/README.md)
+
 Choose an area after completing a working end-to-end project.
 
 - **PCB design:** Schematics, board layout, component selection, and design for manufacture.
@@ -161,8 +229,38 @@ Choose an area after completing a working end-to-end project.
 - **Edge machine learning:** Data collection, model evaluation, embedded inference, and memory and power constraints.
 - **Robotics and control:** Feedback loops, motor control, and coordinated sensing and actuation.
 - **Energy-efficient systems:** Battery characterization, duty cycling, and low-power communication.
+- **Smart home and interoperability:** Protocol layers, device models, commissioning, ownership, and multi-controller lifecycle testing.
+
+### 15. Power and Energy Engineering
+
+[Detailed guide, exercises, and completion criteria](15-power-and-energy-engineering/README.md)
+
+- **Power budgets:** Measure sleep, sensing, processing, and radio activity; distinguish peak current from average energy use.
+- **Supply and batteries:** Study regulators, usable capacity, temperature, aging, supply transients, and appropriate protection.
+- **Optimization:** Compare duty cycling, batching, wake-up costs, and changes in data freshness.
+- **Verification:** Validate runtime assumptions and behavior at low supply voltage on the assembled system.
+
+### 16. Sensing, Signal Processing, and Control
+
+[Detailed guide, exercises, and completion criteria](16-sensing-signal-processing-and-control/README.md)
+
+- **Measurement quality:** Sensor selection, calibration, uncertainty, drift, physical placement, and invalid readings.
+- **Signal processing:** Analog conditioning, sampling, aliasing, digital filtering, and latency.
+- **Control:** Hysteresis, feedback, introductory PID, saturation, and timing.
+- **Failure behavior:** Define actuator behavior during startup, stale data, sensor faults, and lost communications.
+
+### 17. Production and System Engineering
+
+[Detailed guide, exercises, and completion criteria](17-production-and-system-engineering/README.md)
+
+- **System design:** Requirements, resource budgets, design reviews, and failure-mode analysis.
+- **Production preparation:** Controlled hardware revisions, component alternatives, test fixtures, calibration, and traceability.
+- **Release and validation:** Compatibility, dependency inventory, manufacturing tests, environmental evaluation, and review of applicable requirements.
+- **Sustained support:** Service access, incident response, replacement, ownership cost, and end-of-life planning.
 
 ## Hands-on Practice
+
+Follow the staged [Projects and Assessment guide](18-projects-and-assessment/README.md) for prerequisites, acceptance criteria, a failure-test matrix, and an evidence template. The ideas below can be used for those milestones.
 
 ### Exercises
 
@@ -215,3 +313,16 @@ Use your projects to identify which part of IoT development you enjoy most.
 | Systems integration and testing | Networking, gateways, protocol integration, failure testing | A working multi-device system with a repeatable test plan |
 
 Start with a small sensor-to-dashboard project, then deepen the topics needed to make it reliable, secure, and maintainable.
+
+## Technical references
+
+Use these primary references alongside the category exercises. Check the documentation for the hardware target and software release used in your project.
+
+- [NIST IoT device cybersecurity core baseline](https://csrc.nist.gov/pubs/ir/8259/a/final): device security capabilities for category 11.
+- [NIST 8259 series](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program/nistir-8259-series): manufacturer support and lifecycle considerations for categories 11, 13, and 17.
+- [OASIS MQTT 5.0](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html): delivery semantics, sessions, and message properties for category 08.
+- [FreeRTOS mutexes](https://freertos.org/Real-time-embedded-RTOS-mutexes.html): priority inheritance and its limits for category 06.
+- [OpenThread guides](https://openthread.io/guides): Thread networking and border routers for category 07 and the smart-home specialization.
+- [Connectivity Standards Alliance Matter](https://csa-iot.org/all-solutions/matter/): smart-home interoperability for category 14.
+- [Zephyr Twister](https://docs.zephyrproject.org/latest/develop/twister/index.html): an embedded testing implementation for category 12.
+- [ESP-IDF OTA documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/ota.html): image validation and recovery for category 13; behavior depends on target and configuration.
