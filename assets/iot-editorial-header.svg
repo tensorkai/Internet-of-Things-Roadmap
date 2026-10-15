@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Build things. Connect possibilities.</title><desc id="desc">An Internet of Things learning roadmap from first principles to dependable connected systems.</desc>
+<rect width="1200" height="360" rx="16" fill="#f5f5ef"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<circle cx="52" cy="48" r="7" fill="#10a37f"/>
+<text x="74" y="54" fill="#454943" font-size="16" letter-spacing="3">THE INTERNET OF THINGS / A PRACTICAL ROADMAP</text>
+<text x="44" y="145" fill="#202520" font-size="76" font-weight="600" letter-spacing="-4">Build things.</text>
+<text x="44" y="225" fill="#202520" font-size="76" font-weight="600" letter-spacing="-4">Connect possibilities.</text>
+<path d="M48 266 H1152" stroke="#d4d9d1"/>
+<text x="48" y="310" fill="#5c645b" font-size="21">From first principles to dependable connected systems.</text>
+<g fill="none" stroke="#10a37f" stroke-width="2">
+<rect x="982" y="80" width="132" height="132" rx="28"/>
+<rect x="1006" y="104" width="84" height="84" rx="14"/>
+<path d="M1024 80 V62 M1048 80 V62 M1072 80 V62 M1024 212 V230 M1048 212 V230 M1072 212 V230 M982 122 H964 M982 146 H964 M982 170 H964 M1114 122 H1132 M1114 146 H1132 M1114 170 H1132"/>
+<path d="M1026 146 L1041 161 L1071 131" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g></g></svg>
